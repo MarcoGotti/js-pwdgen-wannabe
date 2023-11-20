@@ -19,7 +19,8 @@ console.log (favourite_color);
 
 console.log (firstName + lastName + favourite_color + '23');
 
-document.getElementById('before-pwd-text').innerHTML = ('Log-in into your account again with this generated password');
+document.getElementById('before-pwd-text').innerHTML = ('Log-in into your account with this generated password');
 //`Dear customer, with this password you can enter your account again ${firstName + lastName + favourite_color}23`;
 document.getElementById('generated-password').innerHTML = (firstName + lastName + favourite_color + '23');
-document.getElementById('after-pwd-text').innerHTML = ('Once you have logged in you can change it and make it safer by going on Settings');
+document.getElementById('after-pwd-text').innerHTML = ('Once you have logged in you can change it by going on Settings');
+document.getElementById('assistance-pwd-text').innerHTML = ('For any problem contact us on luigi.assistance@boolean.it');
