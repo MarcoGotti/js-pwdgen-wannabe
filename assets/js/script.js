@@ -2,6 +2,9 @@
 /* 
 variable
 prompt 
+console.log
+document.getElementById
+innerTEXT
 */
 
 
@@ -16,4 +19,4 @@ console.log (favourite_color);
 
 console.log (firstName + lastName + favourite_color + '23');
 
-document.getElementById('generated-password').innerHTML = (firstName + lastName + favourite_color + '23');
+document.getElementById('before-pwd-text').innerHTML = `Dear customer, with this password you can enter your account again ${firstName + lastName + favourite_color + '23'}`;
